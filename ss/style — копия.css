@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #fa8c16;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  width: 90%;
+}
+.header-menu {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.header-nav {
+  margin-left: 60px;
+  margin-right: auto;
+}
+.header-menu-link {
+  color: #fafafa;
+  margin-right: 15px;
+}

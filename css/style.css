@@ -1,0 +1,103 @@
+/*Colors*/
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #fa8c16;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header__menu__link {
+  color: #fafafa;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.header__nav {
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+.input__group {
+  width: 237px;
+  height: 32px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+}
+
+.input__search {
+  width: 80%;
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #BFBFBF;
+  outline: none;
+  padding-left: 12px;
+}
+
+.input__search::-webkit-input-placeholder {
+  color: #BFBFBF;
+}
+
+.input__search:-ms-input-placeholder {
+  color: #BFBFBF;
+}
+
+.input__search::-ms-input-placeholder {
+  color: #BFBFBF;
+}
+
+.input__search::placeholder {
+  color: #BFBFBF;
+}
+
+.search__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}

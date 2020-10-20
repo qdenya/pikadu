@@ -1,0 +1,75 @@
+/*Colors*/
+$dark: #040c1f
+$primary: #796eff
+$black: #040c1f
+
+body
+  font-family: sans-serif
+
+.header
+  background-color: #fa8c16
+  padding-top: 16px
+  padding-bottom: 16px
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: auto
+    max-width: 1200px
+    width: 90%
+  &__menu
+    display: flex
+    list-style: none
+    &__link
+      color: #fafafa
+      text-decoration: none
+      margin-right: 15px
+      font-size: 14px
+      line-height: 22px
+  &__nav
+    margin-left: 60px
+    margin-right: auto
+
+.input
+  &__group
+    width: 237px
+    height: 32px
+    position: relative
+    background-color: #fff
+    border-radius: 4px
+    overflow: hidden
+    border: 1px solid #d9d9d9
+  &__search
+    width: 80%
+    height: 100%
+    border: none
+    font-size: 14px
+    line-height: 22px
+    color: #BFBFBF
+    outline: none
+    padding-left: 12px
+  &__search::-moz-placeholder
+    color: #BFBFBF
+  &__search::-webkit-input-placeholder
+    color: #BFBFBF
+  &__search:-ms-input-placeholder
+    color: #BFBFBF
+  &__search::-ms-input-placeholder
+    color: #BFBFBF
+  &__search::placeholder
+    color: #BFBFBF
+
+.search
+  &__button
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100%
+    width: 20%
+    position: absolute
+    right: 0
+    top: 0
+    border: none
+    background-color: #fff
+    cursor: pointer
+    outline: none
